@@ -1,12 +1,6 @@
-using System;
+#include <iostream>
 
-namespace XConsoleApp
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("X");
-        }
-    }
+int main() {
+    std::cout << "X" << std::endl;
+    return 0;
 }
