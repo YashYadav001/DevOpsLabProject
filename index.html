@@ -1,135 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="section">
-        <div class="title">   
-            <h2>Devops Project Team <br>Members</h2>        
-            <div class="arrows">
-                <button><i class="fa-solid fa-arrow-left" id="left-arrow"></i></button>
-                <button><i class="fa-solid fa-arrow-right" id="right-arrow"></i></button>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>3D Flip Card on Hover | CodingLab</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="/Users/apple/Downloads/NP_Lab/Devops_project_codes/styles.css"/>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="card front-face">
+            <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+         </div>
+         <div class="card back-face">
+            <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+            <div class="info">
+               <div class="title">
+                  CodingLab
+               </div>
+               <p>
+                  User interface designer and <br>front-end developer
+               </p>
             </div>
-        </div>
-        <div class="team-members">
-            <div class="member-card1">
-                <img src="Kiran'sPhoto.jpeg" alt="">
-                <div class="icons">
-                    <a href="https://in.linkedin.com/in/ksek"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/KPK-7"><i class="fa-brands fa-github"></i></a>
-                    <a href="mailto:ksekhon50_be23@thapar.edu"><i class="fa-solid fa-envelope"></i></a>
-                </div>
-                <div class="content">
-                    <h2>Kiranpreet Kaur Sekhon</h2>
-                    <h3>React Developer</h3>
-                </div>
-            </div>
-            <div class="member-card1">
-                <img src="yash.jpeg" alt="">
-                <div class="icons">
-                    <a href="https://www.linkedin.com/in/yash-yadav-12b34a28b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/YashYadav001"><i class="fa-brands fa-github"></i></a>
-                    <a href="mailto:yyadav50_be23@thapar.edu"><i class="fa-solid fa-envelope"></i></a>
-                </div>
-                <div class="content">
-                    <h2>Yash Yadav</h2>
-                    <h3>WP Developer</h3>
-                </div>
-            </div>
-            <div class="member-card1">
-                <img src="anil.jpeg" alt="">
-                <div class="icons">
-                    <a href="https://www.linkedin.com/in/anil-kumar-634567286/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/AnilKumarWorkhard"><i class="fa-brands fa-github"></i></a>
-                    <a href="mailto:akumar50_be23@thapar.edu"><i class="fa-solid fa-envelope"></i></a>
-                </div>
-                <div class="content">
-                    <h2>Anil Kumar</h2>
-                    <h3>React Developer</h3>
-                </div>
-            </div>
-            <div class="team-members">
-            <div class="member-card1">
-                <img src="Kiran'sPhoto.jpeg" alt="">
-                <div class="icons">
-                    <a href="https://in.linkedin.com/in/ksek"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/KPK-7"><i class="fa-brands fa-github"></i></a>
-                    <a href="mailto:ksekhon50_be23@thapar.edu"><i class="fa-solid fa-envelope"></i></a>
-                </div>
-                <div class="content">
-                    <h2>Kiranpreet Kaur Sekhon</h2>
-                    <h3>React Developer</h3>
-                </div>
-            </div>
-            <div class="member-card1">
-                <img src="yash.jpeg" alt="">
-                <div class="icons">
-                    <a href="https://www.linkedin.com/in/yash-yadav-12b34a28b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/YashYadav001"><i class="fa-brands fa-github"></i></a>
-                    <a href="mailto:yyadav50_be23@thapar.edu"><i class="fa-solid fa-envelope"></i></a>
-                </div>
-                <div class="content">
-                    <h2>Yash Yadav</h2>
-                    <h3>WP Developer</h3>
-                </div>
-            </div>
-            <div class="member-card1">
-                <img src="anil.jpeg" alt="">
-                <div class="icons">
-                    <a href="https://www.linkedin.com/in/anil-kumar-634567286/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/AnilKumarWorkhard"><i class="fa-brands fa-github"></i></a>
-                    <a href="mailto:akumar50_be23@thapar.edu"><i class="fa-solid fa-envelope"></i></a>
-                </div>
-                <div class="content">
-                    <h2>Anil Kumar</h2>
-                    <h3>React Developer</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- working slick files  -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" ></script>
-    
-    <script>
-        $('.team-members').slick({
-            slidesToShow: 3,
-            speed: 300,
-            prevArrow:'#left-arrow',
-            nextArrow:'#right-arrow',
-            centerPadding: '60px',
-            responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-      }
-    },
-    {
-      breakpoint: 900,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      }
-    },
-    {
-      breakpoint: 760,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      }
-    }]});
-    </script>
-</body>
-
+            <ul>
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-youtube"></i></a>
+            </ul>
+         </div>
+      </div>
+   </body>
 </html>
